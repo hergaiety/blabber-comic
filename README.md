@@ -2,7 +2,7 @@
 
 ## Sample
 
-![Preview](/comic.png')
+![Preview](/comic.png)
 
 ## How it works
 
