@@ -1,0 +1,23 @@
+{
+  "name": "blabber-comic",
+  "version": "1.0.0",
+  "description": "Converts chat logs to comics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "comic",
+    "generate",
+    "node",
+    "canvas",
+    "chat"
+  ],
+  "author": "Joe Wroten <sharpshark28@gmail.com> (http://joewroten.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-prebuilt": "^1.6.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.16.6"
+  }
+}
