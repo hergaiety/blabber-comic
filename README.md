@@ -50,10 +50,13 @@ blabbercomic(messages).then(response => {
 const blabbercomic = require('blabber-comic');
 let backgrounds = ['./assets/backgrounds/1.png', './assets/backgrounds/2.png'];
 let characters = ['./assets/characters/1.png', './assets/characters/2.png', './assets/characters/3.png']; // Provide at least 3
-let comicSize = 400; // in px square
+let comicSize = 500; // in px square
+let borderColor ='#CCCCCC';
+let font = 'Impact';
+let textColor: '#000000';
 
 let messages = [] // Array of messages...
-let config = { backgrounds, characters, comicSize };
+let config = { backgrounds, characters, comicSize, borderColor, font, textColor };
 
 blabbercomic(messages, config);
 ```
