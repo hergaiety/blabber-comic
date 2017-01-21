@@ -1,6 +1,6 @@
 const fs = require('fs');
 const _ = require('lodash');
-const Canvas = require('canvas-prebuilt');
+const Canvas = require('canvas');
 
 const { parseMessages, parseCharacters } = require('./helpers/parse.js');
 const { fillTextWrapped } = require('./helpers/canvas.js');

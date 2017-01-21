@@ -16,7 +16,7 @@
   "author": "Joe Wroten <sharpshark28@gmail.com> (http://joewroten.com/)",
   "license": "ISC",
   "dependencies": {
-    "canvas-prebuilt": "^1.6.0",
+    "canvas": "^1.6.2",
     "fs": "0.0.1-security",
     "lodash": "^4.16.6"
   }

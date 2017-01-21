@@ -1,5 +1,5 @@
 const fs = require('fs');
-const Canvas = require('canvas-prebuilt');
+const Canvas = require('canvas');
 
 function isImage(fileString) {
   let ext = fileString.slice(fileString.indexOf('.'));
