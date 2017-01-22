@@ -31,6 +31,12 @@ $ Generating Comic...
 $ [ Comic Generated @ comics/1.png ]
 ```
 
+### Additional Options
+
+```
+$ blabber --path ~/Pictures
+```
+
 ## How to use it in other projects
 
 ### Generate base64Data

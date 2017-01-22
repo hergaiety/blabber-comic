@@ -2,7 +2,15 @@
 'use strict';
 
 const fs = require('fs');
+const path = require('path');
 const prompt = require('prompt');
+const argv = require('yargs')
+.usage('Usage: blabber [options]')
+.option('path')
+.help()
+.version()
+.wrap(process.stdout.columns)
+.argv;
 const blabberComic = require('./');
 
 prompt.start();
@@ -43,11 +51,13 @@ function generate(conversation) {
   blabberComic(conversation)
   .then(rawBase64 => rawBase64.replace(/^data:image\/png;base64,/, ''))
   .then(base64 => {
-    let filename = Math.floor(Date.now() + Math.random()) + '.png';
+    let filePath = argv.path || './';
+    let fileName = Math.floor(Date.now() + Math.random()) + '.png';
+    let fileOutput = path.join(filePath, fileName);
 
-    fs.writeFile(filename, base64, 'base64', error => {
+    fs.writeFile(fileOutput, base64, 'base64', error => {
       if(error) throw error;
-      else console.log('[ Comic Generated @ ' + filename + ' ]');
+      else console.log('[ Comic Generated @ ' + fileOutput + ' ]');
     });
   })
   .catch(error => { console.error('Uhoh... something went wrong.', error); });
