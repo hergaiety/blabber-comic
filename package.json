@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node test.js"
   },
+  "bin": {
+    "blabber": "./blabber.js"
+  },
   "keywords": [
     "comic",
     "generate",
@@ -18,6 +21,8 @@
   "dependencies": {
     "canvas": "^1.6.2",
     "fs": "0.0.1-security",
-    "lodash": "^4.16.6"
+    "lodash": "^4.16.6",
+    "prompt": "^1.0.0",
+    "yargs": "^6.6.0"
   }
 }

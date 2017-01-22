@@ -8,7 +8,30 @@
 
 Powered by Node and a node-canvas a comic can automatically be generated from a json array of users/text and some characters/backgrounds to be chosen at random.
 
-## How to use it
+## How to use it from the CLI
+
+### Installing
+
+`npm install -g blabber`
+
+### Using
+
+```
+$ blabber
+$ Who?: Glen
+$ Said What?: Test 1
+$ Another? (y/n) y
+$ Who?: Sarah
+$ Said What?: Test 2
+$ Another? (y/n) y
+$ Who?: Glen
+$ Said What?: Test 3
+$ Another? (y/n) n
+$ Generating Comic...
+$ [ Comic Generated @ comics/1.png ]
+```
+
+## How to use it in other projects
 
 ### Generate base64Data
 
