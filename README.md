@@ -12,7 +12,7 @@ Powered by Node and a node-canvas a comic can automatically be generated from a 
 
 ### Installing
 
-`npm install -g blabber`
+`npm install -g blabber-comic`
 
 ### Using
 
