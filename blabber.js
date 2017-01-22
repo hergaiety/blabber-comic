@@ -6,7 +6,11 @@ const path = require('path');
 const prompt = require('prompt');
 const argv = require('yargs')
 .usage('Usage: blabber [options]')
-.option('path')
+.option('path', {
+  aliases: 'p',
+  desc: 'Specify a place to save the comic.'
+})
+.alias('help', 'h')
 .help()
 .version()
 .wrap(process.stdout.columns)
