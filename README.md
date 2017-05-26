@@ -1,5 +1,7 @@
 # Blabber-Comic
 
+[![npm version](https://badge.fury.io/js/blabber-comic.svg)](https://badge.fury.io/js/blabber-comic)
+
 ## Sample
 
 ![Preview](/comic.png)
