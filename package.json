@@ -16,7 +16,7 @@
     "canvas",
     "chat"
   ],
-  "author": "Joe Wroten <sharpshark28@gmail.com> (http://joewroten.com/)",
+  "author": "Joe Wroten <joe@wroten.me> (https://www.wroten.me/)",
   "license": "ISC",
   "dependencies": {
     "canvas": "^1.6.2",
