@@ -4,7 +4,7 @@
 
 ## Sample
 
-![Preview](./comic.png)
+![Preview](https://raw.githubusercontent.com/sharpshark28/blabber-comic/master/comic.png)
 
 ## How it works
 
