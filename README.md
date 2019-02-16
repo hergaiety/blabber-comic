@@ -14,6 +14,8 @@ Powered by Node and a node-canvas a comic can automatically be generated from a 
 
 ### Installing
 
+Note: Your system may need some [compiled dependencies for canvas to work](https://github.com/Automattic/node-canvas#compiling).
+
 `npm install -g blabber-comic`
 
 ### Using
@@ -38,6 +40,7 @@ $ [ Comic Generated @ comics/1.png ]
 ```
 $ blabber --path ~/Pictures
 ```
+
 
 ## How to use it in other projects
 

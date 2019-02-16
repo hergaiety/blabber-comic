@@ -19,9 +19,9 @@
   "author": "Joe Wroten <joe@wroten.me> (https://www.wroten.me/)",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^1.6.2",
+    "canvas": "^1.6.13",
     "fs": "0.0.1-security",
-    "lodash": "^4.16.6",
+    "lodash": "^4.17.11",
     "prompt": "^1.0.0",
     "yargs": "^6.6.0"
   }
